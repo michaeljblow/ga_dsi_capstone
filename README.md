@@ -1,2 +1,2 @@
-# capstone
+# Capstone
 GA-DSI Capstone
