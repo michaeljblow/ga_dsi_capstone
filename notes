@@ -1,9 +1,0 @@
-Data
-  - 2013-2020
-  - 'keepers' include 'picks' including .dng, .jpg, and .nef
-    - raw files and select snapshots, no edited .tif or .psd
-  - 'duds' include non-'picks' with same parameters
-
-- set aside a test set
-- how does ImageDataGenerator resize panoramas?
-- 
