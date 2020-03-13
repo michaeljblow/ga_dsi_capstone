@@ -11,6 +11,7 @@
 check_ins/
 images/
 test_images/
+models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
