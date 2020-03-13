@@ -4,8 +4,10 @@ import os
 import shutil
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.models import load_model
+import warnings
+warnings.filterwarnings('ignore')
 
-model = load_model('finished_model.h5')
+model = load_model('final_model.h5')
 print('Model Loaded.')
 
 folder_path = os.getcwd() + '\\' + input('Which folder in this directory needs sorting?')
