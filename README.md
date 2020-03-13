@@ -7,6 +7,8 @@
 
 *Special thanks on this project go out to __Chuck Dye__; without whom I may still be wondering what to do for my capstone project and how to code a convolutional neural network.*
 
+<img src="./presentation/slides/Presentation_Photography_with_CNN_Page_01.png" alt="cover" />
+
 ## Problem Statement
 Digital photographers often shoot thousands of images for a particular event or "gig." On average, less than 5% of images shot will be kept, post-processed, and potentially submitted to a client. A majority of images are culled or rejected (out-of-focus, mistimed, unwanted, etc.) prior to being edited and post-processed via Adobe Lightroom, Photoshop, etc. Computer vision is a complicated endeavor. Software does not know the content of new images imported from a camera.
 
