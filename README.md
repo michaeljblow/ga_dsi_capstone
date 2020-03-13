@@ -25,7 +25,7 @@ This project is aimed at photographers most-likely running their own photography
 ## Model Specifics
 Convolutional neural networks are unique in their ability to handle image processing and classification. This model was a simple exploration into understanding neural network architecture and a proof-of-concept for future, more complex models. This proof-of-concept model uses 7 layers (including an input and output layer) as detailed below.
 
-<img src="./presentation/slides/Presentation_Photography_with_CNN_Page_09.jpg" alt="model" width="600"/>
+<img src="./presentation/slides/Presentation_Photography_with_CNN_Page_09.png" alt="model" width="600"/>
 
 ## Contents
 - README - this file
