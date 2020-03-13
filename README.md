@@ -39,11 +39,11 @@ Convolutional neural networks are unique in their ability to handle image proces
 ## Using this Program
 The image_sorter.py script was created using Windows 10 and Git Bash. It can be run from the terminal in the directory of choice. The images to be sorted need to be in one subfolder and all in .jpg format. Once executed, images will be moved into different subfolders for landscapes or people based on how the model classifies them.
 
-### Example
-$ python image_sorter.py
-$ 'Model Loaded.'
-$ 'Which folder in this directory needs sorting?' test_images
-$ 'Example_filename.jpg has been moved to landscapes.'
+### Example Use from Command Line
+- python image_sorter.py
+- 'Model Loaded.'
+- 'Which folder in this directory needs sorting?' test_images
+- 'Example_filename.jpg has been moved to landscapes.'
 
 ## Future Developments
 Due to time constraints, the computational load of neural networks, and the amount of data being used. This model is a proof-of-concept for categorizing images during the photographic workflow. Future developments could include
