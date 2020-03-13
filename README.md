@@ -17,7 +17,7 @@ The human eye can classify images quickly (sharp focus, landscape, portrait, too
 ## Objectives & Data
 This project used my personal photography portfolio dating back to 2006 of over 54,000 images to build a convolutional neural network that identifies the category (landscapes, people, etc.) of individual images. The trained model is used by a python script (executed from the command line) to sort new images into their categories for a quicker post-processing workflow.
 
-Neural networks are computationally intensive and analyze photos pixel by pixel. Thousands of photos from the portfolio reach as high as 45 megapixels (45.4 million pixels per image). Using all 3 color channels (RGB), this equates to over 136 million pixels per image.
+Neural networks are computationally intensive and analyze photos pixel by pixel. Thousands of photos from the portfolio reach as high as 45 megapixels (45.4 million pixels per image). Using all 3 color channels (RGB), this equates to over 136 million values per image.
 
 The final model uses 3728 selected images (reduced to 256x256 pixels with all 3 color channels) separated into 2 classes (people and landscapes) for efficiency. 
 
