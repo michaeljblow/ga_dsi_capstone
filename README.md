@@ -2,10 +2,10 @@
 ## Capstone Project for General Assembly's Data Science Immersive
 
 ||Michael Blow||
-|:------------|:------------|:------------|
+|:------------:|:------------:|:------------:|
 |[LinkedIn](https://www.linkedin.com/in/michaeljblow/)|[Website](https://www.michaeljblow.com)|[Photography](https://mikeblow.media)|
 
-*Special thanks on this project go out to $Chuck Dye$; without whom I may still be wondering what to do for my capstone project and how to code a convolutional neural network.*
+*Special thanks on this project go out to __Chuck Dye__; without whom I may still be wondering what to do for my capstone project and how to code a convolutional neural network.*
 
 ## Problem Statement
 Digital photographers often shoot thousands of images for a particular event or "gig." On average, less than 5% of images shot will be kept, post-processed, and potentially submitted to a client. A majority of images are culled or rejected (out-of-focus, mistimed, unwanted, etc.) prior to being edited and post-processed via Adobe Lightroom, Photoshop, etc. Computer vision is a complicated endeavor. Software does not know the content of new images imported from a camera.
@@ -25,7 +25,7 @@ This project is aimed at photographers most-likely running their own photography
 ## Model Specifics
 Convolutional neural networks are unique in their ability to handle image processing and classification. This model was a simple exploration into understanding neural network architecture and a proof-of-concept for future, more complex models. This proof-of-concept model uses 7 layers (including an input and output layer) as detailed below.
 
-<img src="./presentation/images/Prensentation_Photography_with_CNN_Page_09.jpg" alt="model" width="600"/>
+<img src="./presentation/slides/Presentation_Photography_with_CNN_Page_09.jpg" alt="model" width="600"/>
 
 ## Contents
 - README - this file
