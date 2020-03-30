@@ -17,7 +17,7 @@ The human eye can classify images quickly (sharp focus, landscape, portrait, too
 ## Objectives & Data
 This project used my personal photography portfolio dating back to 2006 of over 54,000 images to build a convolutional neural network that identifies the category (landscapes, people, etc.) of individual images. The trained model is used by a python script (executed from the command line) to sort new images into their categories for a quicker post-processing workflow.
 
-Neural networks are computationally intensive and analyze photos pixel by pixel. Thousands of photos from the portfolio reach as high as 45 megapixels (45.4 million pixels per image). Using all 3 color channels (RGB), this equates to over 136 million pixels per image.
+Neural networks are computationally intensive and analyze photos pixel by pixel. Thousands of photos from the portfolio reach as high as 45 megapixels (45.4 million pixels per image). Using all 3 color channels (RGB), this equates to over 136 million values per image.
 
 The final model uses 3728 selected images (reduced to 256x256 pixels with all 3 color channels) separated into 2 classes (people and landscapes) for efficiency. 
 
@@ -39,11 +39,11 @@ Convolutional neural networks are unique in their ability to handle image proces
 ## Using this Program
 The image_sorter.py script was created using Windows 10 and Git Bash. It can be run from the terminal in the directory of choice. The images to be sorted need to be in one subfolder and all in .jpg format. Once executed, images will be moved into different subfolders for landscapes or people based on how the model classifies them.
 
-### Example
-$ python image_sorter.py
-$ 'Model Loaded.'
-$ 'Which folder in this directory needs sorting?' test_images
-$ 'Example_filename.jpg has been moved to landscapes.'
+### Example Use from Command Line
+- python image_sorter.py
+- 'Model Loaded.'
+- 'Which folder in this directory needs sorting?' test_images
+- 'Example_filename.jpg has been moved to landscapes.'
 
 ## Future Developments
 Due to time constraints, the computational load of neural networks, and the amount of data being used. This model is a proof-of-concept for categorizing images during the photographic workflow. Future developments could include
